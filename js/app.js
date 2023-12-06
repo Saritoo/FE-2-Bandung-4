@@ -223,7 +223,9 @@ window.addEventListener("DOMContentLoaded", async () => {
 function showOrderForm() {
   const productTitle = document.querySelector(".product-info h3").textContent;
   const productDate = document.querySelector(".product-info h5").textContent;
-  const jumlahOrang = document.querySelector(".product-info span").textContent;
+  const jumlahOrang = document.querySelector(
+    ".product-info .formJumlahOrang"
+  ).textContent;
 
   // Isi elemen formulir dengan informasi produk
   document.getElementById("formProductTitle").textContent = productTitle;
