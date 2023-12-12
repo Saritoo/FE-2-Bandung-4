@@ -18,7 +18,7 @@
         <a href="#" class="navbar-logo">Orang<span> Trip</span></a>
       </div>
       <div class="navbar-nav">
-        <a href="index.html">Beranda</a>
+        <a href="#">Beranda</a>
         <a href="tours.html">Trip</a>
         <a href="open-trip.html">Open Trip</a>
         <a href="gallery.html">Gallery</a>
@@ -30,12 +30,24 @@
           <i data-feather="shopping-bag"></i
         ></a>
         <!-- <a href="#" id="user"> <i data-feather="user"></i></a> -->
-        <a href="#" id="menu"> <i data-feather="menu"></i></a>
+        <a href="#" id="menu">
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <use href="css/feather-sprite.svg#menu"></use>
+          </svg>
+        </a>
       </div>
     </nav>
     <!-- Navbar -->
+    <h2>Tentang Kami</h2>
     <section class="about-us">
-      <h2>Tentang Kami</h2>
       <p>
         Perusahaan kami lahir dari hasrat dan cinta akan petualangan, keindahan
         dunia, dan momen-momen berharga dalam setiap perjalanan. Melihat
@@ -47,9 +59,8 @@
         yang kami selenggarakan.
       </p>
     </section>
-
+    <h2>Misi dan Visi</h2>
     <section class="mission-vision">
-      <h2>Misi dan Visi</h2>
       <p>
         Menjadi penyelenggara perjalanan terkemuka yang dikenal oleh pelanggan
         dan mitra bisnis sebagai penggerak inovasi dalam industri perjalanan.
@@ -151,29 +162,81 @@
 
         <form id="messageForm">
           <div class="input-group">
-            <i data-feather="user"></i>
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="css/feather-sprite.svg#user"></use>
+            </svg>
             <input type="text" id="name" placeholder="Nama" />
           </div>
           <div class="input-group">
-            <i data-feather="mail"></i>
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="css/feather-sprite.svg#mail"></use>
+            </svg>
             <input type="text" id="email" placeholder="Email" />
           </div>
           <div class="input-group">
-            <i data-feather="phone"></i>
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="css/feather-sprite.svg#phone"></use>
+            </svg>
             <input type="text" id="phone" placeholder="Nomor HP" />
           </div>
           <div class="input-group">
-            <i data-feather="message-circle"></i>
+            <svg
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="css/feather-sprite.svg#message-circle"></use>
+            </svg>
             <textarea id="message" placeholder="Pesan"></textarea>
           </div>
           <button type="submit" class="btn">Kirim Pesan</button>
         </form>
       </div>
     </section>
+    <!-- Contact Section end -->
+
+    <section class="contact-us">
+      <h2>Hubungi Kami</h2>
+      <p>
+        Jika Anda memiliki pertanyaan atau informasi pemesanan lebih lanjut,
+        silakan hubungi kami:
+      </p>
+      <address>
+        Telp: +62821********<br />
+        Email: <a href="mailto:info@example.com">cs@orangtrip.com</a>
+      </address>
+    </section>
+
     <footer>
       <p>&copy; 2023 Orang Trip. Hak Cipta Dilindungi.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/tentang-kami.js"></script>
   </body>
 </html>

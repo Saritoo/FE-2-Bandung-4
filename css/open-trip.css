@@ -4,11 +4,21 @@ body {
    padding: 0;
 }
 
+.section-poster{
+  margin-top:100px;
+}
 /* Poster Styles */
 .poster img {
-   width: 100%;
+   width: 50%;
    height: auto;
+   padding: 20px;
+  display:flex;
+  flex-wrap:wrap;
+  align-content:center;
+  flex-direction:row-reverse;
+  margin:auto;
  }
+ 
  
  /* Jadwal Styles */
  .jadwal {
@@ -46,13 +56,27 @@ body {
    margin-left: 20px;
  }
  
- /* Footer Styles */
- .footer {
-   background-color: rgba(85, 157, 171, 0.85);
-   color: white;
-   text-align: center;
-   padding: 0.5rem;
- }
+/* Footer Styles */
+footer {
+  background: rgba(85, 157, 171, 0.85);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
  
  .footer__container {
    display: flex;
@@ -97,3 +121,5 @@ body {
      margin-left: 10px;
    }
  }
+
+ 
